@@ -20,7 +20,7 @@ youtube_username: youtube
 blog_username: anyone_bona
 
 # 여기부터가 핵심
-theme: jekyll-professional-resume
+# theme: jekyll-professional-resume
 
 # GitHub Pages용 user 페이지면 보통 빈 문자열로 둠
 baseurl: ""
