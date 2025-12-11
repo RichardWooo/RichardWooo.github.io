@@ -3,22 +3,27 @@ profile_img: /assets/img/facedemo.jpg
 icon_img: /assets/img/icon.webp
 
 name: "Hi! I'm Bonha Woo"
-job: "Simple about me"
+job: |
+  I am a graduate student at Yonsei University exploring how Computer Vision can connect with diverse domains to reveal new research questions and solutions.
 
-phone_number: 012-345-6789
-address: City, Country
-email: email@example.com
-linkedin_username: linkedin
-github_username: github
-instagram_username: instagram
-twitter_username: twitter
+  My work focuses on designing models that reflect the unique characteristics of each domain and developing creative, meaningful approaches to real-world challenges.
+
+phone_number: "+82 10-4058-5172"
+address: Seoul, South Korea
+email: wbh6589@gmail.com
+linkedin_username: BonhaWoo
+github_username: RichardWooo
+instagram_username: BonhaWoo
+twitter_username: RichardWoo97
 facebook_username: facebook
 youtube_username: youtube
-blog_url: homepage-url
+blog_username: anyone_bona
 
-# If your repo name follows the format "<user-name>.github.io", then leave the below blank.
-# Otherwise, set its value as "/<repo-name>". ex) baseurl: /resume
-baseurl:
+# 여기부터가 핵심
+theme: jekyll-professional-resume
+
+# GitHub Pages용 user 페이지면 보통 빈 문자열로 둠
+baseurl: ""
 
 exclude:
   - _posts/
