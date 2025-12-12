@@ -24,59 +24,69 @@
     <ul class="toc-box"></ul>
   </div>
   <div id="about">
+    <div class="about-hero-bg"></div>
     <div class="profile-zone">
-      <img class="profile-img" src="{{ site.profile_img | prepend: site.baseurl }}" alt="My Photo">
+      <img class="profile-img" src="{{ site.profile_img | prepend: site.baseurl }}" alt="My Photo" >
       <ul class="personal-info">
         {% if site.email %}
           <li><a aria-label="My Email" href="mailto:{{ site.email }}">
-            <img src="{{ '/assets/img/envelope.svg' | prepend: site.baseurl }}" alt="My Email">
-            <div><span>{{ site.email }}</span></div>
+            <img src="{{ '/assets/img/envelope.svg' | prepend: site.baseurl }}" alt="My Email" target="_blank">
+            <div><span class="email-text">{{ site.email }}</span></div>
           </a></li>
         {% endif %}
-        {% if site.phone_number %}
-        <li><a aria-label="My Phone">
-          <img src="{{ '/assets/img/phone.svg' | prepend: site.baseurl }}" alt="My Phone Number">
-          <div><span>{{ site.phone_number }}</span></div>
+        <li><a aria-label="My CV" href="{{ '/assets/pdf/cv.pdf' | prepend: site.baseurl }}" target = "_blank" >
+          <img src="{{ '/assets/img/cv.svg' | prepend: site.baseurl }}" alt="My CV">
+          <div><span>@Richard's CV</span></div>
         </a></li>
-        {% endif %}
          {% if site.linkedin_username %}
-          <li><a aria-label="My LinkedIn" href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
+          <li><a aria-label="My LinkedIn" href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank">
             <img src="{{ '/assets/img/linkedin.svg' | prepend: site.baseurl }}" alt="My LinkedIn">
             <div><span>@{{ site.linkedin_username }}</span></div>
           </a></li>
-        {% endif %} 
-        {% if site.address %}
-        <li><a aria-label="My Address" href="https://www.google.com/maps/search/{{ site.address }}">
-          <img src="{{ '/assets/img/location-dot.svg' | prepend: site.baseurl }}" alt="My Address">
-          <div><span>{{ site.address }}</span></div>
-        </a></li>
         {% endif %}
+
         {% if site.github_username %}
-          <li><a aria-label="My Github" href="https://github.com/{{ site.github_username }}">
+          <li><a aria-label="My Github" href="https://github.com/{{ site.github_username }}" target="_blank">
             <img src="{{ '/assets/img/github.svg' | prepend: site.baseurl }}" alt="My Github">
             <div><span>@{{ site.github_username }}</span></div>
           </a></li>
         {% endif %}
+
+        {% if site.huggingface_username %}
+        <li><a aria-label="My Hugging Face" href="https://huggingface.co/{{ site.huggingface_username }}" target="_blank">
+          <img src="{{ '/assets/img/huggingface.svg' | prepend: site.baseurl }}" alt="My Hugging Face">
+          <div><span>@{{ site.huggingface_username }}</span></div>
+        </a></li>
+        {% endif %}
+
+        {% if site.notion_url %}
+          <li><a aria-label="My Notion" href="https://www.notion.so/Self-Study-Public-2c690fbee19c80d79313fd2a4ef2549a?source=copy_link" target="_blank">
+            <img src="{{ '/assets/img/notion.svg' | prepend: site.baseurl }}" alt="My Notion">
+            <div><span>@Richard's Notion</span></div>
+            </a></li>
+        {% endif %}
+
         {% if site.twitter_username %}
-          <li><a aria-label="My Twitter" href="https://x.com/{{ site.twitter_username }}">
+          <li><a aria-label="My Twitter" href="https://x.com/{{ site.twitter_username }}" target="_blank">
             <img src="{{ '/assets/img/twitter.svg' | prepend: site.baseurl }}" alt="My Twitter">
             <div><span>@{{ site.twitter_username }}</span></div>
           </a></li>
         {% endif %}
+
         {% if site.youtube_username %}
-          <li><a aria-label="My Youtube" href="https://www.youtube.com/{{ site.youtube_username }}">
+          <li><a aria-label="My Youtube" href="https://www.youtube.com/{{ site.youtube_username }}" target="_blank">
             <img src="{{ '/assets/img/youtube.svg' | prepend: site.baseurl }}" alt="My Youtube">
             <div><span>@{{ site.youtube_username }}</span></div>
           </a></li>
         {% endif %}
         {% if site.instagram_username %}
-          <li><a aria-label="My Instagram" href="https://www.instagram.com/{{ site.instagram_username }}">
+          <li><a aria-label="My Instagram" href="https://www.instagram.com/{{ site.instagram_username }}" target="_blank">
             <img src="{{ '/assets/img/instagram.svg' | prepend: site.baseurl }}" alt="My Instagram">
             <div><span>@{{ site.instagram_username }}</span></div>
           </a></li>
         {% endif %}
         {% if site.blog_username %}
-          <li><a aria-label="My Blog" href="https://blog.naver.com/{{ site.blog_username }}">
+          <li><a aria-label="My Blog" href="https://blog.naver.com/{{ site.blog_username }}" target="_blank">
             <img src="{{ '/assets/img/house.svg' | prepend: site.baseurl }}" alt="My Blog">
             <div><span>@{{ site.blog_username }}</span></div>
           </a></li>
