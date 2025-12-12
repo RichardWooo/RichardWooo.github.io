@@ -23,7 +23,7 @@ notion_url: https://www.notion.so/Self-Study-Public-2c690fbee19c80d79313fd2a4ef2
 
 
 # 여기부터가 핵심
-#theme: jekyll-professional-resume
+theme: jekyll-professional-resume
 
 # GitHub Pages용 user 페이지면 보통 빈 문자열로 둠
 baseurl: ""
