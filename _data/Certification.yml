@@ -1,0 +1,39 @@
+subject: Certifications
+listing-order: 6
+icon: "/assets/img/Certifications.svg"
+contents:
+  - title: Big Data Analytics Engineer
+    organization: Korea Data Agency
+    description:
+      - National certification for end-to-end data analysis and modeling
+    date: 2025
+
+  - title: SQL Developer (SQLD)
+    organization: Korea Data Agency
+    description:
+      - Certification for practical SQL querying and data manipulation skills
+    date: 2025
+
+  - title: Information Processing Engineer
+    organization: Human Resources Development Service of Korea
+    description:
+      - National certification covering algorithms, databases, and software engineering
+    date: 2024
+
+  - title: Computer Specialist in Spreadsheet & Database (Level 1)
+    organization: Korea Chamber of Commerce and Industry
+    description:
+      - Advanced certification in spreadsheet and database applications
+    date: 2024
+
+  - title: Network Administrator (Level 2)
+    organization: Korea Chamber of Commerce and Industry
+    description:
+      - Certification in basic network configuration and management
+    date: 2024
+
+  - title: Korean History Proficiency Test (Level 1)
+    organization: National Institute of Korean History
+    description:
+      - Highest-level certification in Korean history proficiency
+    date: 2023

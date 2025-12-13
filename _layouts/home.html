@@ -112,10 +112,19 @@
               {% for member in subject.contents %}
               <li class="item">
                   <div class="content-header">
-                    {{ member.title | markdownify }}
+                    {% if member.logo %}
+                      <img class="org-logo"
+                          src="{{ member.logo | prepend: site.baseurl }}"
+                          alt="logo">
+                    {% endif %}
+
+                    <span class="content-title">
+                      {{ member.title | markdownify }}
+                    </span>
+
                     {% if member.date %}
                       <span class="content-date">
-                        <img src="{{ '/assets/img/calendar.webp' | prepend: site.baseurl}}" alt="date">
+                        <img src="{{ '/assets/img/calendar.svg' | prepend: site.baseurl}}" alt="date">
                         {{ member.date }}
                       </span>
                     {% endif %}

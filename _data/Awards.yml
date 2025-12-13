@@ -1,13 +1,33 @@
 subject: Awards
-listing-order: 6
+listing-order: 5
 icon: "/assets/img/trophy.svg"
 contents:
-  - title: IEEEE Fellow
-    description: Association for Natural Language Processing
-    date: Feb. 2024
-  - title: Gogle CodeJam
-    description: 3rd place in Gogle CodeJam
-    date: Jul. 2013
-  - title: Millennium Hackaton
-    description: won the best Inspirational Youth Awards
-    date: Oct. 2010
+  - title: Hyundai Chung Mong-Koo Scholarship
+    organization: Hyundai Motor Chung Mong-Koo Foundation
+    description:
+      - Selected as a scholar in the Intelligent Information Technology track
+    date: 2025
+
+  - title: AI Seoul Tech Graduate Scholarship
+    organization: Seoul Metropolitan Government
+    description:
+      - Selected for graduate-level AI talent support program
+    date: 2025
+
+  - title: Special Prize, AI-based Medical Data Analysis Competition
+    organization: Gangwon Regional Innovation Platform (Digital Healthcare)
+    description:
+      - Awarded Special Prize for outstanding performance in an AI-based medical data analysis competition
+    date: 2024
+
+  - title: SW Excellence Scholarship
+    organization: Yonsei University (Mirae Campus) SW-Centered University Program
+    description:
+      - Recognized for excellence in software and computing-related coursework
+    date: 2024
+
+  - title: Academic Excellence Scholarship
+    organization: Yonsei University (Mirae Campus)
+    description:
+      - Awarded multiple times for outstanding academic performance
+    date: 2021 - 2024

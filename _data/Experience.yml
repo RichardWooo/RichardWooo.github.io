@@ -2,21 +2,20 @@ subject: Experiences
 listing-order: 2
 icon: "/assets/img/briefcase.svg"
 contents:
-  - title: Nanosoft
-    role: Project Manager
+  - title: Yonsei University, AI Security Lab
+    role: Research Intern (Deepfake Team)
     description:
-      - Led development of a new chatbot software utilizing large language model
-      - Co-designer of '*Kopilot*' and '*Gemmini*'
-    date: Jan. 2024 - Ongoing
-  - title: Amazone
-    role: Senior Software Engineer
-    description: 
-      - Built a Java microservice, database schema to manage customer accounts
-      - Enhanced internal pipelines to query real-time data from client devices
-    date: Apr. 2016 - Dec. 2018
-  - title: Pacebook
-    role: Software Engineer Intern
-    description: 
-      - Designed the dynamic website using React for data visualization
-      - Integrated '*Yolo*' to boost the accuracy of the object detection
-    date: Jul. 2013 - Sep. 2013
+      - Conducted literature review and summarization on deepfake detection and generation
+      - Prepared research presentations and supported experiment planning
+    date: Jul. 2024 - Feb. 2025
+  - title: Yonsei University, Academic Affairs Support Office
+    role: LearnUs Mate TA (Graduate Innovation Program)
+    description:
+      - Supported video production and editing for online lectures
+      - Assisted in developing and reviewing digital learning materials
+    date: Apr. 2025 - Aug. 2025
+  - title: Republic of Korea Air Force (Mandatory Military Service)
+    role: Vehicle Operator
+    description:
+      - Served as a military driver responsible for personnel and logistics transportation
+    date: Jan. 2019 - Nov. 2020 
