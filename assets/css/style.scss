@@ -22,8 +22,10 @@
     --font-dark: #202424;
     --theme-name1 : #6896F7FF;
     --theme-root : #c46f3edb;
+    --theme-root1 : #CC8359;
     --theme-deeproot : #793b00;
     --theme-choroc : #bcf790e2;
+    --theme-4-dark : #000000;
 }
 
 html, body {
@@ -46,7 +48,7 @@ a { text-decoration:none; }
 
 #about{
     width: 100%;
-    z-index: 2;
+    z-index: 5;
     position: relative;           // 추가
     overflow: hidden;
     
@@ -335,11 +337,11 @@ a { text-decoration:none; }
 
 #footer {
     padding: 1rem;
-    background: var(--theme-deeproot);
+    background: var(theme-4-dark);
     font-size: 14px;
 
     a { 
-        color: var(--theme-deeproot);
+        color: var(theme-4-dark);
         font-weight: 600;
     }
 }
@@ -449,7 +451,7 @@ a { text-decoration:none; }
         width: 128px;
         top: 320px;
         right: 0;
-        z-index: 3;
+        z-index: 6;
         font-size: 14px;
 
         li {
@@ -504,4 +506,24 @@ a { text-decoration:none; }
   height: 22px;
   left: 0;
   top: 0;
+}
+
+
+#footer {
+  text-align: center;
+  padding: 24px 0;
+  font-size: 0.9rem;
+  color: #000000;
+}
+
+.footer-quote {
+  display: block;
+  font-style: italic;
+}
+
+.footer-author {
+  display: block;
+  margin-top: 6px;
+  font-size: 0.85rem;
+  color: #000000;
 }
