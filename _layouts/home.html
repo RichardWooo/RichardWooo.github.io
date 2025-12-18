@@ -52,13 +52,6 @@
           </a></li>
         {% endif %}
 
-        {% if site.huggingface_username %}
-        <li><a aria-label="My Hugging Face" href="https://huggingface.co/{{ site.huggingface_username }}" target="_blank">
-          <img src="{{ '/assets/img/huggingface.svg' | prepend: site.baseurl }}" alt="My Hugging Face">
-          <div><span>@{{ site.huggingface_username }}</span></div>
-        </a></li>
-        {% endif %}
-
         {% if site.notion_url %}
           <li><a aria-label="My Notion" href="https://www.notion.so/Self-Study-Public-2c690fbee19c80d79313fd2a4ef2549a?source=copy_link" target="_blank">
             <img src="{{ '/assets/img/notion.svg' | prepend: site.baseurl }}" alt="My Notion">
@@ -72,13 +65,25 @@
             <div><span>@{{ site.twitter_username }}</span></div>
           </a></li>
         {% endif %}
-
+        
         {% if site.youtube_username %}
           <li><a aria-label="My Youtube" href="https://www.youtube.com/{{ site.youtube_username }}" target="_blank">
             <img src="{{ '/assets/img/youtube.svg' | prepend: site.baseurl }}" alt="My Youtube">
             <div><span>{{ site.youtube_username }}</span></div>
           </a></li>
         {% endif %}
+
+
+        {% if site.tiktok_username %}
+          <li><a aria-label="My TikTok" href="https://www.tiktok.com/{{ site.tiktok_username }}" target="_blank">
+            <img src="{{ '/assets/img/tiktok.svg' | prepend: site.baseurl }}" alt="My TikTok">
+            <div><span>{{ site.tiktok_username }}</span></div>
+          </a></li>
+        {% endif %}
+
+        
+
+
         {% if site.instagram_username %}
           <li><a aria-label="My Instagram" href="https://www.instagram.com/{{ site.instagram_username }}" target="_blank">
             <img src="{{ '/assets/img/instagram.svg' | prepend: site.baseurl }}" alt="My Instagram">
